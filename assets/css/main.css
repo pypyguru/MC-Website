@@ -169,8 +169,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 150px;
-  margin-right: 8px;
+  max-height: 40px;
+  margin-right: 10px;
 }
 
 .header .logo h1 {
@@ -424,6 +424,17 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo img {
+    max-height: 100px;
+    margin-right: 5px;
+  }
+
+  .footer .footer-links {
+    margin-left: -50;
   }
 }
 
@@ -746,6 +757,7 @@ section,
   padding: 120px 0 60px;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 
 @media (min-width: 1200px) {
